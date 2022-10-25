@@ -4,7 +4,9 @@
   "description": "lab-1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "npm run lint -- --fix"
   },
   "repository": {
     "type": "module",
@@ -18,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/sanixto/nodejs-labs/issues"
   },
-  "homepage": "https://github.com/sanixto/nodejs-labs#readme"
+  "homepage": "https://github.com/sanixto/nodejs-labs#readme",
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
 }
