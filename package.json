@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "editorconfig": "editorconfig-checker",
     "lint": "eslint --ignore-path .gitignore .",
-    "lint:fix": "npm run lint -- --fix",
+    "lint:fix": "eslint --ignore-path .gitignore . --fix",
     "format": "prettier --ignore-path .gitignore --check .",
     "format:fix": "prettier --ignore-path .gitignore --write .",
     "prepare": "husky install"
