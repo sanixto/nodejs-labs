@@ -3,7 +3,7 @@
     "node": true,
     "es2021": true
   },
-  "extends": ["standard", "plugin:sonarjs/recommended", "prettier"],
+  "extends": ["airbnb-base", "plugin:sonarjs/recommended", "prettier"],
   "overrides": [],
   "parserOptions": {
     "ecmaVersion": "latest",
