@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "editorconfig": "editorconfig-checker",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "npm run lint -- --fix",
     "format": "prettier --ignore-path .gitignore --check .",
@@ -25,6 +26,7 @@
   },
   "homepage": "https://github.com/sanixto/nodejs-labs#readme",
   "devDependencies": {
+    "editorconfig-checker": "^4.0.2",
     "eslint": "^8.26.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
