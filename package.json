@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-labs",
+  "version": "1.0.0",
+  "description": "lab-1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "editorconfig": "editorconfig-checker",
+    "lint": "eslint --ignore-path .gitignore .",
+    "lint:fix": "eslint --ignore-path .gitignore . --fix",
+    "format": "prettier --ignore-path .gitignore --check .",
+    "format:fix": "prettier --ignore-path .gitignore --write .",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "module",
+    "url": "git+https://github.com/sanixto/nodejs-labs.git"
+  },
+  "keywords": [
+    "lab"
+  ],
+  "author": "sanixto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanixto/nodejs-labs/issues"
+  },
+  "homepage": "https://github.com/sanixto/nodejs-labs#readme",
+  "devDependencies": {
+    "editorconfig-checker": "^4.0.2",
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-sonarjs": "^0.16.0",
+    "husky": "^8.0.1",
+    "prettier": "2.7.1"
+  }
+}
